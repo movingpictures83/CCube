@@ -1,0 +1,10 @@
+numSv	100
+maxiter	200
+init	5
+clusterA	1
+clusterB	6
+numrepeats	5
+baseDepth	40
+ccfX	1
+ccfY	0.3
+ccfZ	0.7

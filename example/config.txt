@@ -1,0 +1,2 @@
+Prefix plugins/CCube/example/
+Plugin CCube inputfile parameters.txt outputfile output
