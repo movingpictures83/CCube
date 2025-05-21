@@ -225,6 +225,7 @@ points( seq(0, max( c(mydata$true_obs_ccf2, mydata$ccube_single_ccf2) ), length.
         seq(0, max( c(mydata$true_obs_ccf2, mydata$ccube_single_ccf2) ), length.out = 100 ),
         type = "l" )
 
+write.csv(mydata$ccube_single_ccf1, paste(outputfile, "csv", sep="."))
 dev.off()
 }
 
